@@ -19,6 +19,6 @@ func main() {
         log.Fatalf("Err: %s", err.Error())
     } else {
         log.Printf("DiscId mymovies.dk style: %X-%X", discId[0:4], discId[4:])
-            log.Printf("DiscId pydvdid style: %x", discId)
+        log.Printf("DiscId pydvdid style: %x", discId)
     }
 }
